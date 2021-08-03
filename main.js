@@ -60,6 +60,7 @@ function my_keydown(e)
         document.getElementById("current_width").innerHTML = block_image_width;
         document.getElementById("current_height").innerHTML = block_image_height;
     }
+
     if(keyPressed == "38")
     {
         up();
